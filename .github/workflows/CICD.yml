@@ -159,7 +159,7 @@ jobs:
           sf org create scratch --definition-file config/snapshot-scratch-def.json --alias $DYNAMIC_ALIAS --wait 10 --target-dev-hub ${{ secrets.SALESFORCE_DEVHUB_USERNAME }}
                                 
           # Generate the password for the new scratch org
-          PASSWORD=$(sf org generate password --length 12 --target-org $SCRATCH_USERNAME | sed "s/'/''/g" | tr -d '\n')          
+          PASSWORD=$(sf org generate password --length 12 --target-org $DYNAMIC_ALIAS | sed "s/'/''/g" | tr -d '\n')          
           APEX_CODE="String orgDetails = '$PASSWORD';Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();mail.setToAddresses(new String[] {'shivprasad.patil@chargebee.com'});mail.setSubject('New scratch org has been created.');mail.setPlainTextBody(orgDetails+'.');Messaging.sendEmail(new Messaging.SingleEmailMessage[] {mail});"
 
             # Save the Apex code to a file
