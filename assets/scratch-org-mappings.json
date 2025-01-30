@@ -1,20 +1,21 @@
 {
   "status": 0,
   "result": {
-    "id": "00DH30000001ktXMAQ",
+    "id": "00DH30000001grBMAQ",
     "devHubId": "sfcbdevhub1@chargebee.com.hub",
     "apiVersion": "63.0",
-    "accessToken": "00DH30000001ktX!AQUAQJsVzDRRclEVJN2Utevhx5mUe6g3HeTq1Jd8oC.KB0lTqjnw0Vd.F4Hsu9Sf6IA3LgQcuUmMloG7yQmALfmPoikt3HUo",
-    "instanceUrl": "https://strawberry-platypus-5142-dev-ed.scratch.my.salesforce.com",
-    "username": "test-nyz6sbxltucs@example.com",
+    "accessToken": "00DH30000001grB!AREAQIVphldGx2BYnhvuOxOVq4KdA7pxBVZkdm03jbXeOWNfrHWyCGgKCa0UzZ5jFBqPDMN_q46EsUB7t5yv.rYSwkMPdIfQ",
+    "instanceUrl": "https://wonton-paas-272-dev-ed.scratch.my.salesforce.com",
+    "username": "test-o2bhhqwb7dqe@example.com",
     "clientId": "3MVG92mNMNiWvonhLqRZfLnEQj8NcjDXFSmNeMoVOFLXSvJt_MYPg_4wc4WFNxAl0y4RvUx17LguXkh6XRTvw",
+    "password": "|vq5yrgYefrs",
     "status": "Active",
-    "expirationDate": "2025-02-05",
+    "expirationDate": "2025-02-06",
     "createdBy": "sfcbdevhub1@chargebee.com.hub",
     "orgName": "ChargeBee",
-    "createdDate": "2025-01-29T15:40:24.000+0000",
-    "signupUsername": "test-nyz6sbxltucs@example.com",
-    "alias": "main-2025-01-29"
+    "createdDate": "2025-01-30T10:04:19.000+0000",
+    "signupUsername": "test-o2bhhqwb7dqe@example.com",
+    "alias": "main-2025-01-30"
   },
   "warnings": [
     "This command will expose sensitive information that allows for subsequent activity using your current authenticated session.\nSharing this information is equivalent to logging someone in under the current credential, resulting in unintended access and escalation of privilege.\nFor additional information, please review the authorization section of the https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm."
